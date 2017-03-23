@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fortune Teller</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.0.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <h1> Find out your fortune today! </h1>
+  <div class="container">
+    <form id="fortune_form">
+      <div class="form-group">
+        <input type="checkbox" name="unlucky-events" value="black-cat"> Saw a black cat<br>
+        <input type="checkbox" name="unlucky-events" value="mirror">Broken Mirror<br>
+        <input type="checkbox" name="unlucky-events" value="ladder">Walk under a ladder<br>
+        <input type="checkbox" name="lucky-events" value="clover">Find a four leaf clover<br>
+        <input type="checkbox" name="lucky-events" value="penny">Find a penny<br>
+        <input type="checkbox" name="lucky-events" value="wish-bone">Get the best half of a wish bone!<br>
+      </div>
+      <button type="submit" class="btn">What is your fortune?</button>
+    </form>
+
+
+    <div class="result">
+      <div id="unlucky">
+        <h2>You are unlucky!</h3>
+        <p>It seems that you are out of luck! No hope for you!</p>
+      </div>
+      <div id="lucky">
+        <h2>You are lucky!</h2>
+        <p>Wow! Go buy a lotto ticket!</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
